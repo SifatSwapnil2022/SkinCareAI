@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+
+# Virtual env
+venv/
+env/
+
+# Weights (VERY IMPORTANT)
+backend/weights/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

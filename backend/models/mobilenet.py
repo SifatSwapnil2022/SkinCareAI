@@ -1,0 +1,40 @@
+import numpy as np
+import tensorflow as tf
+from keras.models import Model
+from keras.applications import MobileNetV2
+from keras.layers import Dense, BatchNormalization, Flatten
+from utils.preprocess import CLASS_NAMES, preprocess_for_keras
+
+_model = None
+
+def load_model():
+    global _model
+    if _model is not None:
+        return _model
+
+    base = MobileNetV2(input_shape=(224, 224, 3), include_top=False,
+                       weights=None, pooling='max')
+    x = BatchNormalization()(base.output)
+    x = Dense(1024, activation='relu')(x)
+    x = Dense(512,  activation='relu')(x)
+    x = Dense(512,  activation='relu')(x)
+    x = Dense(256,  activation='relu')(x)
+    x = Flatten()(x)
+    outputs = Dense(len(CLASS_NAMES), activation='softmax')(x)
+    _model  = Model(inputs=base.input, outputs=outputs)
+    _model.load_weights("weights/best_MobileNetV2.weights.h5")
+    return _model
+
+
+def predict(image_bytes: bytes) -> dict:
+    model = load_model()
+    arr   = preprocess_for_keras(image_bytes)
+    arr   = tf.keras.applications.mobilenet_v2.preprocess_input(arr)
+    probs = model.predict(arr, verbose=0)[0]
+    idx   = int(np.argmax(probs))
+    return {
+        "disease":         CLASS_NAMES[idx],
+        "confidence":      round(float(probs[idx]), 4),
+        "all_predictions": {CLASS_NAMES[i]: round(float(p), 4)
+                            for i, p in enumerate(probs)}
+    }
