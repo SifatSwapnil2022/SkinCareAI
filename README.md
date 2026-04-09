@@ -199,7 +199,7 @@ Generates PDF reports for each analyzed image using ReportLab, including:
 8️⃣ User Profile Page
 
 
-<img width="1087" height="328" alt="image" src="https://github.com/user-attachments/assets/4885efc1-2e2a-40d8-abc2-82c6d51f3872" />
+<img width="1087" height="328" alt="image" src="https://github.com/user-attachments/assets/4885efc1-2e1a-40d8-abc2-82c6d51f3872" />
 
 
 ---
