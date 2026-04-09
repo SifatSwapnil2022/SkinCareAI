@@ -149,6 +149,57 @@ Generates PDF reports for each analyzed image using ReportLab, including:
 
   <img width="1192" height="722" alt="image" src="https://github.com/user-attachments/assets/1f0726c3-4d38-4410-91b1-b2cea4034b0e" />
 
+---
+
+### 🖥️ User Interface Screenshots
+
+
+1️⃣ Landing Page (When User Opens SkinCare AI)
+
+
+<img width="1886" height="804" alt="image" src="https://github.com/user-attachments/assets/6eecba49-2635-4991-9a9f-9f01183bbcb2" />
+
+
+2️⃣ Sign In / Sign Up Page
+
+
+<img width="1476" height="541" alt="image" src="https://github.com/user-attachments/assets/477b1841-0173-46d8-867a-363fce6b2b65" />
+
+
+3️⃣ After Authentication (Main Dashboard Entry)
+
+
+<img width="1882" height="931" alt="image" src="https://github.com/user-attachments/assets/d44304a2-f504-430d-b3b9-4d9aceb0412c" />
+
+
+4️⃣ Model Selection Panel
+(User can choose between four trained models)
+
+
+<img width="752" height="300" alt="image" src="https://github.com/user-attachments/assets/14b60a01-c7db-4f43-9689-8c99077cba0c" />
+
+5️⃣ Prediction Interface (Example: ResNet50 Selected)
+
+
+<img width="1890" height="881" alt="image" src="https://github.com/user-attachments/assets/da8b97a9-b770-4b95-9382-8774291297b5" /> <img width="1633" height="437" alt="image" src="https://github.com/user-attachments/assets/041a1625-2388-4533-952c-48ebe0b50ad9" />
+
+
+6️⃣ User Dashboard
+
+
+<img width="1639" height="756" alt="image" src="https://github.com/user-attachments/assets/35604b01-4d8b-4964-ae71-1339e9f2a327" />
+
+
+7️⃣ User History Page
+
+
+<img width="1881" height="901" alt="image" src="https://github.com/user-attachments/assets/d5f908f8-2031-46dd-b704-4379dc2ff0da" />
+
+
+8️⃣ User Profile Page
+
+
+<img width="1087" height="328" alt="image" src="https://github.com/user-attachments/assets/4885efc1-2e2a-40d8-abc2-82c6d51f3872" />
 
 
 ---
