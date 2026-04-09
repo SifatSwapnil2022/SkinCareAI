@@ -203,3 +203,27 @@ Generates PDF reports for each analyzed image using ReportLab, including:
 
 
 ---
+
+### 📄 License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+---
+
+### 👥 Owner & Developer
+MD SIFATULLAH SHEIKH
+
+Email: mdsifatullahsheikh@gmail.com
+Website: https://myportfolio-bn96.onrender.com/
+
+Project Role: System Architecture, AI/ML Pipeline, Backend & Frontend Development
+
+---
+
+### 🙏 Acknowledgments
+Dataset: Kaggle Skin Disease Dataset by Ismail Promus.
+
+Open Source Tools: FastAPI, Streamlit, Docker, TensorFlow/PyTorch, and Ultralytics (YOLOv8).
+
+LLM Providers: Groq and OpenAI for enabling the intelligent medical reasoning module.
+
+---
