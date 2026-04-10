@@ -97,6 +97,36 @@ Tinea Ringworm (Fungal Infections) (~7k images)
 Warts & Viral Infections (~7k images)
 
 
+### EDA 
+
+- Actual dataset
+
+
+<img width="1266" height="555" alt="image" src="https://github.com/user-attachments/assets/0d20e544-fae8-4e6f-b6b3-29e62df11855" />
+
+
+<img width="1213" height="392" alt="image" src="https://github.com/user-attachments/assets/8f301ed0-81df-4121-93d4-e5bf47467d18" />
+
+
+- After balance the dataset
+
+
+<img width="1261" height="482" alt="image" src="https://github.com/user-attachments/assets/a06fc823-b13e-4e11-a71a-88fafbb2882f" />
+
+
+---
+
+
+### Dataset summary before vs after
+
+
+<img width="1064" height="471" alt="image" src="https://github.com/user-attachments/assets/be144689-390a-44be-b549-d5b03cdf29b8" />
+
+
+
+
+
+
 
 ---
 
