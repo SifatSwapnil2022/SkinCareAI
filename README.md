@@ -245,7 +245,7 @@ MD SIFATULLAH SHEIKH
 Email: mdsifatullahsheikh@gmail.com
 Website: https://myportfolio-bn96.onrender.com/
 
-Project Role: System Architecture, AI/ML Pipeline, Backend & Frontend Development
+
 
 ---
 
